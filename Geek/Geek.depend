@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1549097153 source:d:\c++ p\geek\linkedlist.cpp
+	<stdio.h>
+	<bits/stdc++.h>
+	<iostream>
+
+1549106285 source:d:\c++ p\geek\linkedlist2.cpp
+	<bits/stdc++.h>
+	<iostream>
+
