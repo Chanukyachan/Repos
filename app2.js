@@ -21,7 +21,7 @@ google(userInput.toString(), function (err, res){
     for (var i = 0; i < res.links.length; ++i) {
 
       var link = res.links[i];
-
+      link.
       if(link.title.includes("Wikipedia") && link.href.includes("wikipedia")) {
 
           console.log(link.href + "\n");
@@ -35,7 +35,7 @@ google(userInput.toString(), function (err, res){
 
                   let $ = cheerio.load(html);
 
-                  let para = $;("h1,h2,h3,h4,div,p");
+                  let para = $;
                   string = para.text().toLowerCase();
                   let str2 = string.replace(/[\.,-\/#!$%\^&\*;:{}=\-_`~()]/,"");
 
